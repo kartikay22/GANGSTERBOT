@@ -11,7 +11,7 @@ from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
+  WARN_PIC = "https://telegra.ph/file/5ecab2ff600f6300a3023.jpg"
 else:
   WARN_PIC = PMPERMIT_PIC
 PM_WARNS = {}
@@ -29,7 +29,7 @@ USER_BOT_NO_WARN = ("`Hello, This is AntiSpam Security Service⚠️.You have fo
 
 
 if Var.PM_PERMIT_GROUP_ID is not None:
-    @command(pattern="^.approve ?(.*)")
+    @command(pattern="^.approve|.a ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
            return
@@ -64,7 +64,7 @@ if Var.PM_PERMIT_GROUP_ID is not None:
                     await asyncio.sleep(3)
                     await rko.delete()
 
-    @command(pattern="^.disapprove ?(.*)")
+    @command(pattern="^.disapprove|.da ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
             return
@@ -73,8 +73,8 @@ if Var.PM_PERMIT_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 123456789:
-            await event.edit("Sorry, I Can't Disapprove My Master")
+          if chat.id == 1990239830:
+            await event.edit("Sorry, I Can't Disapprove My DEV")
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
@@ -89,7 +89,7 @@ if Var.PM_PERMIT_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 123456789:
+          if chat.id == 1990239830:
             await event.edit("You are tried to block my Creator, now i will sleep for 100 seconds")
             await asyncio.sleep(100)
           else:
@@ -214,7 +214,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(123456789)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1990239830)))
 async def hehehe(event):
     if event.fwd_from:
         return
@@ -222,7 +222,7 @@ async def hehehe(event):
     if event.is_private:
         if not pmpermit_sql.is_approved(chat.id):
             pmpermit_sql.approve(chat.id, "**My Boss Is Best🔥**")
-            await borg.send_message(chat, "**Boss Meet My Creator**")
+            await borg.send_message(chat, "**Boss Meet My DEV**")
              
 
             

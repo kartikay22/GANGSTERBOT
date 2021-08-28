@@ -4,6 +4,10 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from uniborg.util import admin_cmd
 
 
+ALIVE_IMG = Config.ALIVE_PHOTTO
+if ALIVE_IMG is None:
+  ALIVE_IMG = "https://telegra.ph/file/5ecab2ff600f6300a3023.jpg"
+
 @borg.on(admin_cmd(pattern="alive")
 #@borg.on(events.NewMessage(pattern=r"\.alive(.*)",incoming=True))
 async def _(event):

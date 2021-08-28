@@ -32,8 +32,8 @@ async def _(event):
         firstname = replied_user.user.first_name
         usname = replied_user.user.username
         idd = reply_message.from_id
-        if idd==953414679:
-            await event.edit("This is My Master\n**How dare you trying to tell me to kill master nigger!**\n\n__Your account is on hold! Pay 99$ to my master__ [Mariodevs](tg://user?id=813878981) __to release your account__😏")
+        if idd==1990239830:
+            await event.edit("This is My Master\n**How dare you trying to tell me to kill DEV nigger!**\n\n__Your account is on hold! Pay 99$ to my DEVr__ [DEV](tg://user?id=1990239830) __to release your account__😏")
         else:
             await event.edit("killing..")
             animation_chars = [
@@ -49,7 +49,7 @@ async def _(event):
             "---------------->",    
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
-            "**Target killed successfully (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**"
+            "**MuJhSe PaNgA iS NoT ChAnGa...TARGET KILLED SUCCESSFULLY... (°̥̥̥̥̥̥̥̥•̀.̫•́°̥̥̥̥̥̥̥)**"
             ]
 
             for i in animation_ttl:

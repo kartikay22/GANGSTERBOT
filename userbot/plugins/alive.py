@@ -10,8 +10,7 @@ if ALIVE_IMG is None:
 
 @borg.on(admin_cmd(pattern="alive")
 #@borg.on(events.NewMessage(pattern=r"\.alive(.*)",incoming=True))
-async def _(event):
-    if event.fwd_from:
+
         return
     mentions = "**𝔾𝔸ℕ𝔾𝕊𝕋𝔼ℝ-𝔹𝕆𝕋 is oNlIne**"
     mentions = "**𝕄𝔸𝕊𝕋𝔼ℝ**"     : {DEFAULTUSER}\n"

@@ -1,8 +1,8 @@
 
 {
   "name": "GANGSTERBOT",
-  "description": "Userbot Kanged From Everywhere",
-  "logo": "https://telegra.ph/file/ef467ce9110f4dbcb7619.jpg" ,
+  "description": "USERBOT",
+  "logo": "https://telegra.ph/file/5ecab2ff600f6300a3023.jpg" ,
     "keywords": [
     "telegram",
     "userbot",
@@ -18,18 +18,8 @@
       "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-    "TEMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
-      "required": false
-    },
-    "F_BAN_LOGGER_GROUP": {
-      "description": "Put Group id Same As PRIVATE_GROUP_ID.",
-      "value": "",
-      "required": false
-    },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @No_OnE_Kn0wS_Me .",
+      "description": "Fill your Full name or Username like @THE_DEAR_COMRADE .",
       "value": "",
       "required": false
     },
@@ -43,38 +33,15 @@
       "value": "",
       "required": false
     },
-    "BIO_MSG": {
-      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "",
-      "required": false
-    },
-    "PMPERMIT_PIC": {
-      "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "",
-      "required": false
-    },
-    "PM_PERMIT_GROUP_ID": {
-      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
-      "value": "",
-      "required": false
-    },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
-    },
-    "REM_BG_API_KEY": {
-      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
+      "required":true
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
+      "required":true
     },
     "PLUGIN_CHANNEL": {
       "description": "Create a private group add rose  then type /id. PLUGIN_CHANNEL and PRIVATE_GROUP_ID both values should be same",
@@ -93,7 +60,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "I haven't made my own repl.run yet😅..get it from https://friday.midhunkm1294.repl.run",
+      "description": "IB ANY TELETHON STRING HERE....I haven't made my own repl.run yet😅..get it from https://friday.midhunkm1294.repl.run",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -101,39 +68,19 @@
       "value": "",
       "required": false
     },
-    "GIT_REPO_NAME": {
-      "description": "Your repo name Example: No-OnE-Kn0wS-Me/dArK_pRiNcE, but GITHUB_ACCESS_TOKEN must be setup first.",
-      "value": "",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
-      "value": "",
-      "required": false
-    },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
       "value": "",
-      "required": false
+      "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "The Value of App Name you filled in right on top.Required for updater to work.",
       "value": "",
-      "required": false
+      "required": true
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn of inline Mode on bot settings. Get it.",
       "value": ""
-    },
-    "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.apt/usr/bin/google-chrome",
-      "required": false
-    },
-    "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.chromedriver/bin/chromedriver",
-      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
@@ -150,21 +97,11 @@
     },
     "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
       "description": " Set The Amount Of Buttons Displayed In Help Command",
-      "required": false
+      "value": "5"
     },
     "NO_OF_COLUMS_DISPLAYED_IN_H_ME_CMD": {
       "description": "Set The Amount Of Rows You Want To Displayed In Help Command default 2",
-      "required": false
-    },
-    "EMOJI_TO_DISPLAY_IN_HELP": {
-      "description": "Set The emojies You Want to Add In Help Command You Can Add Multiple Emojies too!!",
-      "value": "",
-      "required": false
-    }, 
-    "TZ": {
-      "description": "Required for Correct Time for autopic get from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
-      "required": false
+      "value": "2"
     },
     "REDIRECTCHANNEL": {
       "description": "Put You Channel Username Reflecting Your Info or Your Tags Etc",
